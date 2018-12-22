@@ -37,4 +37,4 @@ class Song
   end 
   
 end 
-arr.uniq.map { |x| [x, arr.count(x)] }.to_h
+#arr.uniq.map { |x| [x, arr.count(x)] }.to_h
