@@ -1,5 +1,7 @@
 class Song
-  @@count = 0 
+  @@count = 0
+  
+  attr_accessor 
   
   def initialize(name, artist, genre)
     @@count += 1
